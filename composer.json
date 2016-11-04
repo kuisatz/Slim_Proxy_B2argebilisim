@@ -1,5 +1,15 @@
 {
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "name": "slim_proxy_0_4",
+    "description": "Slim proxy version 0.4",
+    "license": "BSD-3-Clause",
     "require": {
-        "slim/slim": "~2.6"
+        "zendframework/zend-authentication": "2.*"
+        
     }
 }
